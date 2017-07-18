@@ -1,16 +1,9 @@
 <templateSet group="PHP">
-  <template name="eb" value="echo '&lt;br&gt;';" description="echo br" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="PHP" value="true" />
-    </context>
+  <template name="eco" value="echo $END$;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context />
   </template>
-  <template name="php" value="&lt;?php $SOME$ ?&gt;" description="&lt;?php" toReformat="false" toShortenFQNames="true">
-    <variable name="SOME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="php" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="CSS" value="true" />
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
