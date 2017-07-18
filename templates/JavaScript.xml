@@ -1,0 +1,19 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log($MODULE_REF$);" description="fast console log" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE_REF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for (let $INDEX$ = 0; $INDEX$ &lt; $count$; $INDEX$++) {&#10;  $END$&#10;}" description="for" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="count" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
