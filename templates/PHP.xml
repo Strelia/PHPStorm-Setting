@@ -2,7 +2,7 @@
   <template name="eco" value="echo $END$;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="php" value="&lt;?php $END$ ?&gt;" description="php" toReformat="false" toShortenFQNames="true">
+  <template name="php" value="&lt;?php $END$?&gt;" description="&lt;?php ?&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
