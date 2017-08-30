@@ -34,7 +34,7 @@
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
-            <configuration_option name="date.timezone" value="" />
+            <configuration_option name="date.timezone" value="UTC" />
             <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
@@ -52,7 +52,7 @@
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="C:\php\ext" />
+            <configuration_option name="extension_dir" value="ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -84,6 +84,16 @@
             <configuration_option name="max_input_nesting_level" value="64" />
             <configuration_option name="max_input_time" value="-1" />
             <configuration_option name="max_input_vars" value="1000" />
+            <configuration_option name="mbstring.detect_order" value="" />
+            <configuration_option name="mbstring.encoding_translation" value="0" />
+            <configuration_option name="mbstring.func_overload" value="0" />
+            <configuration_option name="mbstring.http_input" value="" />
+            <configuration_option name="mbstring.http_output" value="" />
+            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
+            <configuration_option name="mbstring.internal_encoding" value="" />
+            <configuration_option name="mbstring.language" value="neutral" />
+            <configuration_option name="mbstring.strict_detection" value="0" />
+            <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="128M" />
@@ -99,6 +109,8 @@
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="open_basedir" value="" />
+            <configuration_option name="openssl.cafile" value="" />
+            <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
             <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
@@ -195,8 +207,10 @@
             <extension name="iconv" />
             <extension name="json" />
             <extension name="libxml" />
+            <extension name="mbstring" />
             <extension name="mcrypt" />
             <extension name="mysqlnd" />
+            <extension name="openssl" />
             <extension name="pcre" />
             <extension name="readline" />
             <extension name="session" />
