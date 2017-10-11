@@ -1,4 +1,9 @@
 <application>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration tool_path="C:\Users\Gerbi\AppData\Roaming\Composer\vendor\bin\phpcs.bat" />
+    </phpcs_settings>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="E:\OpenServer\modules\php\PHP-7.1\php.exe" id="86448a85-1429-4259-bf04-07fcefd544ef" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
