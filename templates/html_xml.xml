@@ -1,0 +1,8 @@
+<templateSet group="html/xml">
+  <template name="icon" value="&lt;span class=&quot;ui icon js-hover&quot;&gt;&#10;    &lt;i class=&quot;copyright icon&quot;&gt;&lt;/i&gt;&#10;&lt;/span&gt;&#10;&lt;span class=&quot;ui special popup&quot;&gt;&#10;    $VAR$&#10;&lt;/span&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
